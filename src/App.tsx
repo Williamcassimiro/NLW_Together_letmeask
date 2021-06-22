@@ -1,15 +1,11 @@
-import {Button} from './components/Button'
+
+import { Route } from 'react-router-dom';
+import { NewRoom } from './pages/NewRoom';
 
 
 function App() {
   return (
-    <div>
-       <Button/>
-       <Button/>
-       <Button/>
-       <Button/>
-       <Button/>
-    </div>
+    <NewRoom/>
   );
 }
 
